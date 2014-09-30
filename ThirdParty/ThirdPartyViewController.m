@@ -6,16 +6,19 @@
 //  Copyright (c) 2014 Coopsi. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ThirdPartyViewController.h"
+#import <Coopsi-iOS-SDK/Coopsi_iOS_SDK.h>
 
-@interface ViewController ()
+@interface ThirdPartyViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ThirdPartyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    CoopsiCoin * paintView=[[CoopsiCoin alloc]initWithFrame:CGRectMake(20, 250, 50, 50)];
+    [self.view addSubview:paintView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19696A6A19D8348C00954EC5 /* Coopsi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19696A6919D8348C00954EC5 /* Coopsi.bundle */; };
+		19B22E6C19D1B02A00807F61 /* libCoopsi-iOS-SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B22E6919D1AFFB00807F61 /* libCoopsi-iOS-SDK.a */; };
 		19DA718E19D166B500DB6D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DA718D19D166B500DB6D03 /* main.m */; };
 		19DA719119D166B500DB6D03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DA719019D166B500DB6D03 /* AppDelegate.m */; };
-		19DA719419D166B500DB6D03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DA719319D166B500DB6D03 /* ViewController.m */; };
+		19DA719419D166B500DB6D03 /* ThirdPartyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DA719319D166B500DB6D03 /* ThirdPartyViewController.m */; };
 		19DA719719D166B500DB6D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DA719519D166B500DB6D03 /* Main.storyboard */; };
 		19DA719919D166B500DB6D03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DA719819D166B500DB6D03 /* Images.xcassets */; };
 		19DA719C19D166B500DB6D03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19DA719A19D166B500DB6D03 /* LaunchScreen.xib */; };
@@ -17,6 +19,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		19696A6819D8348C00954EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B22E6319D1AFFB00807F61 /* Coopsi-iOS-SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19696A5A19D80DC300954EC5;
+			remoteInfo = CoopsiResources;
+		};
+		19696A6B19D8365800954EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B22E6319D1AFFB00807F61 /* Coopsi-iOS-SDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B22E4119D1AED200807F61;
+			remoteInfo = "Coopsi-iOS-SDK";
+		};
+		19696A6D19D8365D00954EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B22E6319D1AFFB00807F61 /* Coopsi-iOS-SDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 19696A5919D80DC300954EC5;
+			remoteInfo = CoopsiResources;
+		};
+		19B22E6819D1AFFB00807F61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B22E6319D1AFFB00807F61 /* Coopsi-iOS-SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19B22E4219D1AED200807F61;
+			remoteInfo = "Coopsi-iOS-SDK";
+		};
+		19B22E6A19D1AFFB00807F61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B22E6319D1AFFB00807F61 /* Coopsi-iOS-SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19B22E4D19D1AED200807F61;
+			remoteInfo = "Coopsi-iOS-SDKTests";
+		};
 		19DA71A219D166B500DB6D03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 19DA718019D166B500DB6D03 /* Project object */;
@@ -27,13 +64,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19B22E6319D1AFFB00807F61 /* Coopsi-iOS-SDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Coopsi-iOS-SDK.xcodeproj"; path = "../../sdk/Coopsi-iOS-SDK/Coopsi-iOS-SDK.xcodeproj"; sourceTree = "<group>"; };
 		19DA718819D166B500DB6D03 /* ThirdParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DA718C19D166B500DB6D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19DA718D19D166B500DB6D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19DA718F19D166B500DB6D03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19DA719019D166B500DB6D03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		19DA719219D166B500DB6D03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		19DA719319D166B500DB6D03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19DA719219D166B500DB6D03 /* ThirdPartyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdPartyViewController.h; sourceTree = "<group>"; };
+		19DA719319D166B500DB6D03 /* ThirdPartyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdPartyViewController.m; sourceTree = "<group>"; };
 		19DA719619D166B500DB6D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19DA719819D166B500DB6D03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		19DA719B19D166B500DB6D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -47,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B22E6C19D1B02A00807F61 /* libCoopsi-iOS-SDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +99,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19B22E6419D1AFFB00807F61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B22E6919D1AFFB00807F61 /* libCoopsi-iOS-SDK.a */,
+				19B22E6B19D1AFFB00807F61 /* Coopsi-iOS-SDKTests.xctest */,
+				19696A6919D8348C00954EC5 /* Coopsi.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		19DA717F19D166B500DB6D03 = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +130,11 @@
 		19DA718A19D166B500DB6D03 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				19B22E6319D1AFFB00807F61 /* Coopsi-iOS-SDK.xcodeproj */,
 				19DA718F19D166B500DB6D03 /* AppDelegate.h */,
 				19DA719019D166B500DB6D03 /* AppDelegate.m */,
-				19DA719219D166B500DB6D03 /* ViewController.h */,
-				19DA719319D166B500DB6D03 /* ViewController.m */,
+				19DA719219D166B500DB6D03 /* ThirdPartyViewController.h */,
+				19DA719319D166B500DB6D03 /* ThirdPartyViewController.m */,
 				19DA719519D166B500DB6D03 /* Main.storyboard */,
 				19DA719819D166B500DB6D03 /* Images.xcassets */,
 				19DA719A19D166B500DB6D03 /* LaunchScreen.xib */,
@@ -129,10 +179,13 @@
 				19DA718419D166B500DB6D03 /* Sources */,
 				19DA718519D166B500DB6D03 /* Frameworks */,
 				19DA718619D166B500DB6D03 /* Resources */,
+				19DA71BC19D16E1300DB6D03 /* Build Framework */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				19696A6E19D8365D00954EC5 /* PBXTargetDependency */,
+				19696A6C19D8365800954EC5 /* PBXTargetDependency */,
 			);
 			name = ThirdParty;
 			productName = ThirdParty;
@@ -186,6 +239,12 @@
 			mainGroup = 19DA717F19D166B500DB6D03;
 			productRefGroup = 19DA718919D166B500DB6D03 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 19B22E6419D1AFFB00807F61 /* Products */;
+					ProjectRef = 19B22E6319D1AFFB00807F61 /* Coopsi-iOS-SDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				19DA718719D166B500DB6D03 /* ThirdParty */,
@@ -194,11 +253,36 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		19696A6919D8348C00954EC5 /* Coopsi.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Coopsi.bundle;
+			remoteRef = 19696A6819D8348C00954EC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19B22E6919D1AFFB00807F61 /* libCoopsi-iOS-SDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCoopsi-iOS-SDK.a";
+			remoteRef = 19B22E6819D1AFFB00807F61 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19B22E6B19D1AFFB00807F61 /* Coopsi-iOS-SDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Coopsi-iOS-SDKTests.xctest";
+			remoteRef = 19B22E6A19D1AFFB00807F61 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		19DA718619D166B500DB6D03 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19696A6A19D8348C00954EC5 /* Coopsi.bundle in Resources */,
 				19DA719719D166B500DB6D03 /* Main.storyboard in Resources */,
 				19DA719C19D166B500DB6D03 /* LaunchScreen.xib in Resources */,
 				19DA719919D166B500DB6D03 /* Images.xcassets in Resources */,
@@ -214,12 +298,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19DA71BC19D16E1300DB6D03 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19DA718419D166B500DB6D03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19DA719419D166B500DB6D03 /* ViewController.m in Sources */,
+				19DA719419D166B500DB6D03 /* ThirdPartyViewController.m in Sources */,
 				19DA719119D166B500DB6D03 /* AppDelegate.m in Sources */,
 				19DA718E19D166B500DB6D03 /* main.m in Sources */,
 			);
@@ -236,6 +337,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		19696A6C19D8365800954EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Coopsi-iOS-SDK";
+			targetProxy = 19696A6B19D8365800954EC5 /* PBXContainerItemProxy */;
+		};
+		19696A6E19D8365D00954EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoopsiResources;
+			targetProxy = 19696A6D19D8365D00954EC5 /* PBXContainerItemProxy */;
+		};
 		19DA71A319D166B500DB6D03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 19DA718719D166B500DB6D03 /* ThirdParty */;
@@ -412,6 +523,7 @@
 				19DA71AD19D166B500DB6D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19DA71AE19D166B500DB6D03 /* Build configuration list for PBXNativeTarget "ThirdPartyTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +532,7 @@
 				19DA71B019D166B500DB6D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
